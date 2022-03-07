@@ -7,13 +7,13 @@ const assertEqual = function(actual, expected) {
 };
 
 
-const head = function(arr){
-  return(arr[0]);
-}
+const head = function(arr) {
+  return (arr[0]);
+};
 
-const tail = function(arr){
-  return(arr.slice(1,arr.length));
-}
+const tail = function(arr) {
+  return (arr.slice(1,arr.length));
+};
 // test one
 assertEqual(head(["Bootcamp","light","house"]), "Bootcamp");
 assertEqual(head([1,2,3,4]),2);

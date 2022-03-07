@@ -6,6 +6,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+
+const head = function(arr){
+  return(arr[0]);
+}
 // test one
-assertEqual("Bootcamp","Bootcamp");
-assertEqual(1,2);
+assertEqual(head(["Bootcamp","light","house"]), "Bootcamp");
+assertEqual(head([1,2,3,4]),2);

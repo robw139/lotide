@@ -23,7 +23,6 @@
 // assertArraysEqual([2,2,3],[1,2,3]);
 
 
-
 const middle = function(arr){
   arrInside = arr.slice();
   if (arr.length === 1){
@@ -51,4 +50,4 @@ const middle = function(arr){
 // console.log(assertArraysEqual(middle([1,2,3,4,5,6,7,8]),[4,5]));
 // console.log(testArray)
 
-modules.export = middle;
+module.exports = middle;

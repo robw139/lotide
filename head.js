@@ -15,9 +15,11 @@ const tail = function(arr){
   return(arr.slice(1,arr.length));
 }
 // test one
-assertEqual(head(["Bootcamp","light","house"]), "Bootcamp");
-assertEqual(head([1,2,3,4]),2);
+// assertEqual(head(["Bootcamp","light","house"]), "Bootcamp");
+// assertEqual(head([1,2,3,4]),2);
 
-let test = [1,2,3,4,5,6,7];
-console.log(tail(test));
-console.log(test);
+// let test = [1,2,3,4,5,6,7];
+// console.log(tail(test));
+// console.log(test);
+
+module.exports = head;
